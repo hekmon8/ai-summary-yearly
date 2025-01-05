@@ -9,7 +9,7 @@
 
 ## 🌟 项目概述
 
-AI Diss Summary 是一个创新的平台，使用 AI 技术生成个性化的年度数字足迹总结。目前支持 GitHub 数据分析，Twitter 和即刻集成即将推出。
+AI Summary Yearly 是一个创新的平台，使用 AI 技术生成个性化的年度数字足迹总结。目前支持 GitHub 数据分析，Twitter 和即刻集成即将推出。
 
 ## ✨ 主要功能
 

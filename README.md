@@ -9,7 +9,7 @@
 
 ## 🌟 Overview
 
-AI Diss Summary is an innovative platform that generates personalized annual summaries of your digital footprint using AI. Currently supporting GitHub data analysis, with Twitter and Jike integration coming soon.
+AI Summary Yearly is an innovative platform that generates personalized annual summaries of your digital footprint using AI. Currently supporting GitHub data analysis, with Twitter and Jike integration coming soon.
 
 ## ✨ Features
 
