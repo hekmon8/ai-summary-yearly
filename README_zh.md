@@ -1,11 +1,11 @@
-# AI Summary yearly - 你的年度数字足迹分析
+# AI Summary Yearly - 你的年度数字足迹分析
 
-> 🌐 **[访问 AI Summary yearly](https://aiyear.my)** - 使用 AI 生成你的个性化年度数字足迹总结
+> 🌐 **[访问 AI Summary Yearly](https://aiyear.my)** - 使用 AI 生成你的个性化年度数字足迹总结
 
 [English](README.md) | [中文](README_zh.md)
 
 [![访问网站](https://img.shields.io/badge/访问-aiyear.my-blue)](https://aiyear.my)
-[![GitHub 许可证](https://img.shields.io/github/license/your-username/ai-diss-summary)](LICENSE)
+[![GitHub 许可证](https://img.shields.io/github/license/hekmon8/ai-summary-yearly)](LICENSE)
 
 ## 🌟 项目概述
 

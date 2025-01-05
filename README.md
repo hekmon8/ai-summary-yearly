@@ -5,7 +5,7 @@
 [English](README.md) | [中文](README_zh.md)
 
 [![Visit Website](https://img.shields.io/badge/Visit-aiyear.my-blue)](https://aiyear.my)
-[![GitHub License](https://img.shields.io/github/license/your-username/ai-diss-summary)](LICENSE)
+[![GitHub License](https://img.shields.io/github/license/hekmon8/ai-diss-summary)](LICENSE)
 
 ## 🌟 Overview
 
@@ -183,42 +183,22 @@ interface PlatformData {
    ```bash
    # Start development server
    npm run dev
-
-   # Start worker development
-   npm run worker:dev
-
-   # Run tests
-   npm run test
-   npm run test:worker
    ```
 
 6. **Production**
    ```bash
    # Build application
-   npm run build:prod
-
-   # Start production server
-   npm run start:prod
-
-   # Deploy worker
-   npm run worker:deploy
+   npm run build
    ```
 
 7. **Scripts**
    ```bash
    # Available npm scripts
-   "dev": "next dev"                    # Start development server
-   "dev:local": "NODE_ENV=development next dev"
+   "dev": "next dev"                    # Start development server  
    "build": "next build"                # Build for production
-   "build:prod": "NODE_ENV=production next build"
    "start": "next start"                # Start production server
-   "start:prod": "NODE_ENV=production next start"
    "lint": "next lint"                  # Run linter
    "test": "vitest"                     # Run tests
-   "test:worker": "cd workers && vitest test/worker.test.ts"
-   "worker:dev": "cd workers && npm run dev"
-   "worker:deploy": "cd workers && npm run deploy"
-   "prisma:init-migration": "tsx scripts/init-migration.ts"
    "prisma:generate": "prisma generate"
    "prisma:update": "npx prisma migrate dev --name"
    "prisma:studio": "prisma studio"
@@ -277,37 +257,3 @@ The system uses [Cronicle](https://github.com/jhuckaby/Cronicle) for scheduled t
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenAI for AI capabilities
-- Cloudflare for edge computing
-- All contributors and users of the platform
-
-## 🌐 Internationalization
-
-The project uses `next-i18next` for internationalization support:
-
-1. **Supported Languages**
-   - English (en) - Default
-   - Chinese (zh)
-
-2. **Translation Files**
-   ```
-   /public/locales/
-   ├── en/
-   │   └── common.json
-   └── zh/
-       └── common.json
-   ```
-
-3. **Language Detection**
-   - Automatic browser language detection
-   - Manual language switching
-   - Persistent language preference
-
-4. **Content Types**
-   - UI elements
-   - Generated summaries
-   - Error messages
-   - System notifications
