@@ -13,49 +13,49 @@ AI Summary Yearly is an innovative platform that generates personalized annual s
 
 ## ✨ Features
 
-### Currently Implemented
-- **GitHub Integration**
-  - Repository and contribution analysis
-  - Code activity heatmaps
-  - Language usage statistics
-  - Personalized AI summaries using OpenAI
-  - Custom avatar generation
+### Currently Implemented ✅
+- **GitHub Integration** 🔄
+  - ✓ Repository and contribution analysis
+  - ✓ Code activity heatmaps
+  - ✓ Language usage statistics
+  - ✓ Personalized AI summaries using OpenAI
+  - ✓ Custom avatar generation
 
-- **AI-Powered Features**
-  - OpenAI-driven content generation
-  - Multiple summary styles:
-    - Sarcastic mode
-    - Best Diss mode
-    - Classical mode
-    - Praise mode
-  - AI avatar generation with personality traits
-  - Activity heatmaps and statistics
+- **AI-Powered Features** 🤖
+  - ✓ OpenAI-driven content generation
+  - ✓ Multiple summary styles:
+    - 😈 Sarcastic mode
+    - 🔥 Best Diss mode
+    - 📚 Classical mode
+    - 🌟 Praise mode
+  - ✓ AI avatar generation with personality traits
+  - ✓ Activity heatmaps and statistics
 
-- **Interactive UI**
-  - Real-time progress tracking
-  - Shareable results
-  - Downloadable summaries
-  - Internationalization support:
-    - English (en)
-    - Chinese (zh)
-    - Auto-language detection
-    - Dynamic content translation
-    - i18n with next-i18next
+- **Interactive UI** 🎨
+  - ✓ Real-time progress tracking
+  - ✓ Shareable results
+  - ✓ Downloadable summaries
+  - ✓ Internationalization support:
+    - 🇺🇸 English (en)
+    - 🇨🇳 Chinese (zh)
+    - 🌐 Auto-language detection
+    - 🔄 Dynamic content translation
+    - 🌍 i18n with next-i18next
 
-### Coming Soon
-- **Twitter Integration**
-  - Social activity analysis
-  - Engagement metrics
-  - Content highlights
+### Coming Soon 🚧
+- **Twitter Integration** 🐦
+  - ⏳ Social activity analysis
+  - ⏳ Engagement metrics
+  - ⏳ Content highlights
 
-- **Jike Integration**
-  - Post analysis
-  - Interaction patterns
-  - Community engagement metrics
+- **Jike Integration** 📱
+  - ⏳ Post analysis
+  - ⏳ Interaction patterns
+  - ⏳ Community engagement metrics
 
 ## 🛠 Tech Stack
 
-- **Frontend**
+- **Frontend** 🎨
   - Next.js 13
   - React 18
   - TailwindCSS
