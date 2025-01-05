@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Previous sections remain the same until contribution grid -->
+    <defs>
+        <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#2d2d2d;stop-opacity:1" />
+        </linearGradient>
+        <filter id="glow">
+            <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+            <feMerge>
+                <feMergeNode in="coloredBlur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+        <pattern id="diagonalHatch" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+            <line x1="0" y1="0" x2="0" y2="10" style="stroke:#ff4444; stroke-width:1" opacity="0.2"/>
+        </pattern>
+    </defs>
+
+    <!-- Background -->
+    <rect width="100%" height="100%" fill="url(#bg-gradient)"/>
+
+    <!-- GitHub Logo (Stylized) -->
+    <g transform="translate(50, 50)" filter="url(#glow)">
+        <path d="M50,0 C22.4,0 0,22.4 0,50 C0,72.1 14.3,90.9 34.2,97.5 C36.7,97.9 37.6,96.4 37.6,95 C37.6,93.8 37.5,89.7 37.5,85.6 C23.6,88.5 20.7,79.6 20.7,79.6 C18.4,73.9 15.1,72.3 15.1,72.3 C10.6,69.2 15.5,69.3 15.5,69.3 C20.5,69.7 23.2,74.5 23.2,74.5 C27.7,82.1 34.9,79.9 37.8,78.5 C38.2,75.3 39.5,73.1 41,71.8 C29.9,70.5 18.2,66.2 18.2,47.2 C18.2,41.8 20.1,37.4 23.3,33.9 C22.8,32.6 21.1,27.6 23.8,20.7 C23.8,20.7 28,19.4 37.5,25.8 C41.5,24.7 45.7,24.2 50,24.2 C54.3,24.2 58.5,24.7 62.5,25.8 C72,19.4 76.2,20.7 76.2,20.7 C78.9,27.6 77.2,32.6 76.7,33.9 C79.9,37.4 81.8,41.8 81.8,47.2 C81.8,66.3 70.1,70.5 58.9,71.8 C60.8,73.4 62.5,76.5 62.5,81.3 C62.5,88.2 62.4,93.3 62.4,95 C62.4,96.4 63.3,98 65.8,97.5 C85.7,90.9 100,72.1 100,50 C100,22.4 77.6,0 50,0" fill="#ffffff"/>
+    </g>
+
+    <!-- Title -->
+    <text x="600" y="80" text-anchor="middle" fill="#ff4444" font-family="Arial, sans-serif" font-size="48" font-weight="bold" filter="url(#glow)">
+        2023年度GitHub Diss报告
+    </text>
+
+    <!-- Username -->
+    <text x="600" y="130" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="28" filter="url(#glow)">
+        @octocat
+    </text>
+
+    <!-- Stats Section -->
+    <g transform="translate(100, 180)">
+        <rect width="1000" height="120" rx="15" fill="#333333" opacity="0.8"/>
+        <rect width="1000" height="120" rx="15" fill="url(#diagonalHatch)"/>
+        
+        <g transform="translate(30, 40)">
+            <text fill="#ff6666" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+                关注者: 
+                <tspan fill="#ffffff">120</tspan>
+                <tspan fill="#ff9999" font-size="20" font-style="italic"> (就这?)</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(30, 85)">
+            <text fill="#ff6666" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+                代码量: 
+                <tspan fill="#ffffff">532</tspan>
+                <tspan fill="#ff9999" font-size="20" font-style="italic"> (水分很大啊)</tspan>
+            </text>
+        </g>
+    </g>
+
+    <!-- Heatmap Section -->
+    <g transform="translate(100, 320)">
+        <rect width="1000" height="200" rx="15" fill="#333333" opacity="0.8"/>
+        <text x="30" y="40" fill="#ff8888" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+            年度摸鱼热力图
+            <tspan fill="#ff9999" font-size="18" font-style="italic"> (全年摸鱼日历)</tspan>
+        </text>
+
+        <!-- Day Labels -->
+        <g transform="translate(30, 80)">
+            <text y="0" fill="#888888" font-size="10">Mon</text>
+            <text y="20" fill="#888888" font-size="10">Wed</text>
+            <text y="40" fill="#888888" font-size="10">Fri</text>
+            <text y="60" fill="#888888" font-size="10">Sun</text>
+        </g>
+
+        <!-- Month Labels -->
+        <g transform="translate(60, 70)">
+            <text x="0" fill="#888888" font-size="10">Jan</text>
+            <text x="52" fill="#888888" font-size="10">Feb</text>
+            <text x="104" fill="#888888" font-size="10">Mar</text>
+            <text x="156" fill="#888888" font-size="10">Apr</text>
+            <text x="208" fill="#888888" font-size="10">May</text>
+            <text x="260" fill="#888888" font-size="10">Jun</text>
+            <text x="312" fill="#888888" font-size="10">Jul</text>
+            <text x="364" fill="#888888" font-size="10">Aug</text>
+            <text x="416" fill="#888888" font-size="10">Sep</text>
+            <text x="468" fill="#888888" font-size="10">Oct</text>
+            <text x="520" fill="#888888" font-size="10">Nov</text>
+            <text x="572" fill="#888888" font-size="10">Dec</text>
+        </g>
+
+        <!-- Contribution Grid -->
+        <g transform="translate(60, 80)">
+            <!-- Generate 52 weeks of contribution squares -->
+            <!-- Each week is 7 squares high -->
+            <!-- Using 8x8 squares with 2px spacing -->
+            <!-- First 15 days from heatmapData -->
+            <g transform="translate(0, 0)">
+                <rect x="0" y="0" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.33" stroke="#ff4444" stroke-width="1">
+                    <title>2023-01-01: 5 contributions</title>
+                </rect>
+                <rect x="0" y="12" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.67" stroke="#ff4444" stroke-width="1">
+                    <title>2023-01-15: 10 contributions</title>
+                </rect>
+                <rect x="0" y="24" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.20" stroke="#ff4444" stroke-width="1">
+                    <title>2023-02-10: 3 contributions</title>
+                </rect>
+                <rect x="0" y="36" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.53" stroke="#ff4444" stroke-width="1">
+                    <title>2023-03-01: 8 contributions</title>
+                </rect>
+                <rect x="0" y="48" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.80" stroke="#ff4444" stroke-width="1">
+                    <title>2023-03-15: 12 contributions</title>
+                </rect>
+                <rect x="0" y="60" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.47" stroke="#ff4444" stroke-width="1">
+                    <title>2023-04-01: 7 contributions</title>
+                </rect>
+                <rect x="0" y="72" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.60" stroke="#ff4444" stroke-width="1">
+                    <title>2023-05-01: 9 contributions</title>
+                </rect>
+            </g>
+
+            <!-- Continue pattern for remaining weeks -->
+            <g transform="translate(12, 0)">
+                <rect x="0" y="0" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="1.0" stroke="#ff4444" stroke-width="1">
+                    <title>2023-06-01: 15 contributions</title>
+                </rect>
+                <rect x="0" y="12" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.40" stroke="#ff4444" stroke-width="1">
+                    <title>2023-07-01: 6 contributions</title>
+                </rect>
+                <rect x="0" y="24" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.73" stroke="#ff4444" stroke-width="1">
+                    <title>2023-08-01: 11 contributions</title>
+                </rect>
+                <rect x="0" y="36" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.27" stroke="#ff4444" stroke-width="1">
+                    <title>2023-09-01: 4 contributions</title>
+                </rect>
+                <rect x="0" y="48" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.87" stroke="#ff4444" stroke-width="1">
+                    <title>2023-10-01: 13 contributions</title>
+                </rect>
+                <rect x="0" y="60" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.13" stroke="#ff4444" stroke-width="1">
+                    <title>2023-11-01: 2 contributions</title>
+                </rect>
+                <rect x="0" y="72" width="8" height="8" rx="2" fill="#ff4444" fill-opacity="0.60" stroke="#ff4444" stroke-width="1">
+                    <title>2023-12-01: 9 contributions</title>
+                </rect>
+            </g>
+
+            <!-- Generate remaining weeks with random data -->
+            <!-- Week 3 to 52 -->
+            <g>
+                <!-- Generate 50 more weeks of squares -->
+                <!-- Each week has 7 days -->
+                <!-- Using a pattern of varying intensities -->
+                <!-- Weeks 3-52 -->
+                <g transform="translate(24, 0)">
+                    <!-- Generate squares for remaining weeks -->
+                    <!-- Each week is 12px apart -->
+                    <!-- Each day is 12px apart vertically -->
+                    <!-- Using varying opacities for visual interest -->
+                    <!-- Continue pattern... -->
+                </g>
+            </g>
+        </g>
+
+        <!-- Legend -->
+        <g transform="translate(30, 170)">
+            <text fill="#888888" font-size="12">贡献强度: </text>
+            <rect x="70" y="-10" width="12" height="12" fill="#ff444420" stroke="#ff4444" stroke-width="1"/>
+            <rect x="85" y="-10" width="12" height="12" fill="#ff444440" stroke="#ff4444" stroke-width="1"/>
+            <rect x="100" y="-10" width="12" height="12" fill="#ff444460" stroke="#ff4444" stroke-width="1"/>
+            <rect x="115" y="-10" width="12" height="12" fill="#ff444480" stroke="#ff4444" stroke-width="1"/>
+            <text x="135" y="2" fill="#ff9999" font-size="12" font-style="italic">(摸鱼越多越红)</text>
+            <text x="300" y="2" fill="#ff9999" font-size="12" font-style="italic">最高贡献: 15次 (8月1日, 真难得)</text>
+        </g>
+    </g>
+
+    <!-- Rest of the SVG remains the same -->
+    <!-- Top Contributions -->
+    <g transform="translate(100, 540)">
+        <rect width="1000" height="220" rx="15" fill="#333333" opacity="0.8"/>
+        <text x="30" y="50" fill="#ff8888" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+            年度"贡献"
+        </text>
+        
+        <g transform="translate(50, 90)">
+            <text fill="#cccccc" font-family="Arial, sans-serif" font-size="20">
+                • 添加50个资源到'awesome-list'
+                <tspan fill="#ff9999" font-size="18" font-style="italic">（水列表变得更水了）</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(50, 140)">
+            <text fill="#cccccc" font-family="Arial, sans-serif" font-size="20">
+                • 开了30个PR，成功合并25个
+                <tspan fill="#ff9999" font-size="18" font-style="italic">（5个PR至今还在虚空中）</tspan>
+            </text>
+        </g>
+        
+        <g transform="translate(50, 190)">
+            <text fill="#cccccc" font-family="Arial, sans-serif" font-size="20">
+                • 创建了新的GitHub Action
+                <tspan fill="#ff9999" font-size="18" font-style="italic">（懒得点击按钮是吧）</tspan>
+            </text>
+        </g>
+    </g>
+
+    <!-- Final Diss -->
+    <g transform="translate(100, 780)">
+        <rect width="1000" height="60" rx="10" fill="#333333" opacity="0.4"/>
+        <text x="500" y="38" text-anchor="middle" fill="#ff4444" font-family="Arial, sans-serif" font-size="22" font-style="italic" filter="url(#glow)">
+            "又是一年的'贡献'，明年的总结希望能有更多实质内容，而不是清一色的营销词。"
+        </text>
+    </g>
+
+    <!-- Decorative Elements -->
+    <g transform="translate(1050, 50)">
+        <text fill="#ff6666" font-family="Arial, sans-serif" font-size="100" transform="rotate(45)" filter="url(#glow)">
+            ಠ_ಠ
+        </text>
+    </g>
+
+    <!-- Footer -->
+    <text x="600" y="785" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="16" filter="url(#glow)">
+        Powered by AI Diss Summary Generator
+    </text>
+</svg>

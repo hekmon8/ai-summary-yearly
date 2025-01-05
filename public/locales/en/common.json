@@ -1,0 +1,279 @@
+{
+  "title": "AI Diss Annual Debug",
+  "subtitle": "Let AI Recompile Your Year's Highlights",
+  "description": "Generate your annual data story in 3 minutes with AI's Runtime analysis. Covering GitHub code journey, Twitter social network, and Jike life moments for a multi-dimensional data visualization.",
+  "nav": {
+    "home": "Main Console",
+    "pricing": "System Config",
+    "login": "Connect",
+    "logout": "Disconnect",
+    "history": "System Logs"
+  },
+  "credits": {
+    "balance": "Computing Credits"
+  },
+  "form": {
+    "platform": {
+      "label": "Select Data Source",
+      "github": "GitHub Repository Analysis </>",
+      "twitter": "Twitter Social Network 🔥",
+      "jike": "Jike Life Timeline ✨",
+      "coming_soon": "Coming Soon"
+    },
+    "username": {
+      "label": {
+        "github": "Enter GitHub ID",
+        "twitter": "Enter Twitter Handle",
+        "jike": "Enter Jike Username"
+      },
+      "placeholder": {
+        "github": "Enter your GitHub ID to initialize code analysis",
+        "twitter": "Enter your Twitter handle to start social review",
+        "jike": "Enter your Jike username to revisit memories"
+      }
+    },
+    "style": {
+      "label": {
+        "github": "Select Output Mode",
+        "twitter": "Choose Review Style",
+        "jike": "Select Memory Style"
+      },
+      "sarcasm": {
+        "github": "Debug Mode",
+        "twitter": "Social Critic",
+        "jike": "Life Roast"
+      },
+      "best_diss": {
+        "github": "Hardcore Debug Mode",
+        "twitter": "Ultimate Social Critic",
+        "jike": "Ultimate Life Roaster"
+      },
+      "classical": {
+        "github": "Classical Code Review",
+        "twitter": "Classical Commentary",
+        "jike": "Classical Diary"
+      },
+      "praise": {
+        "github": "Release Mode",
+        "twitter": "Social Star",
+        "jike": "Warm Memories"
+      }
+    },
+    "submit": {
+      "github": "Execute Code Analysis",
+      "twitter": "Start Social Review",
+      "jike": "Begin Memory Playback"
+    },
+    "generating": {
+      "github": "Compiling your code life...",
+      "twitter": "Analyzing your social data...",
+      "jike": "Revisiting your life moments..."
+    }
+  },
+  "result": {
+    "status": {
+      "pending": {
+        "github": "System initializing...",
+        "twitter": "Getting ready...",
+        "jike": "Preparing..."
+      },
+      "processing": {
+        "github": "Processing code data stream...",
+        "twitter": "Analyzing social interactions...",
+        "jike": "Organizing life moments..."
+      },
+      "completed": {
+        "github": "Compilation complete! Ready to view your code life?",
+        "twitter": "Analysis complete! Check out your social impact!",
+        "jike": "All set! Ready to revisit your year?"
+      },
+      "failed": {
+        "github": "Uncaught exception occurred",
+        "twitter": "Oops, data fetch failed",
+        "jike": "Something went wrong"
+      }
+    },
+    "steps": {
+      "fetch_data": {
+        "github": "Pulling repositories...",
+        "twitter": "Fetching social data...",
+        "jike": "Syncing life records..."
+      },
+      "generate_content": {
+        "github": "Analyzing code patterns...",
+        "twitter": "Processing social interactions...",
+        "jike": "Weaving life stories..."
+      },
+      "create_image": {
+        "github": "Generating visualization charts...",
+        "twitter": "Creating social graphs...",
+        "jike": "Crafting memory cards..."
+      },
+      "github_data": {
+        "github": "Fetching repositories...",
+        "twitter": "Retrieving social data...",
+        "jike": "Syncing life records..."
+      },
+      "content_generation": {
+        "github": "Analyzing code patterns...",
+        "twitter": "Processing social interactions...",
+        "jike": "Weaving life stories..."
+      },
+      "image_generation": {
+        "github": "Generating visualization...",
+        "twitter": "Creating social graphs...",
+        "jike": "Crafting memory cards..."
+      }
+    },
+    "error": {
+      "request": {
+        "github": "Request timeout, please retry",
+        "twitter": "Network error, try again",
+        "jike": "Loading failed, retry?"
+      },
+      "failed": {
+        "github": "Generation failed, check logs",
+        "twitter": "Analysis failed, please retry",
+        "jike": "Generation failed, try again"
+      },
+      "insufficient_credits": {
+        "github": "Insufficient computing credits",
+        "twitter": "Not enough credits",
+        "jike": "Insufficient balance"
+      }
+    },
+    "share": {
+      "github": "Share Code Report",
+      "twitter": "Share Social Story",
+      "jike": "Share Life Moments"
+    },
+    "download": {
+      "github": "Export Analysis",
+      "twitter": "Save Story",
+      "jike": "Save Memories"
+    },
+    "avatar": {
+      "generate": "Generate Your Digital Avatar",
+      "generating": "Creating your unique avatar...",
+      "success": "Avatar generated successfully!",
+      "error": "Generation failed, please retry",
+      "title": "Your Digital Avatar",
+      "alt": "Digital Avatar Preview",
+      "placeholder": {
+        "title": "Waiting for Avatar Generation",
+        "description": "Click the button above to start"
+      }
+    },
+    "progress": {
+      "phase1": "Basic analysis completed",
+      "phase2": "Generating avatar",
+      "phase3": "All completed"
+    },
+    "style": {
+      "sarcasm": {
+        "github": "Debug Mode (5 Credits)",
+        "twitter": "Social Critic (5 Credits)",
+        "jike": "Life Roast (5 Credits)"
+      },
+      "best_diss": {
+        "github": "Hardcore Debug Mode (8 Credits)",
+        "twitter": "Ultimate Social Critic (8 Credits)",
+        "jike": "Ultimate Life Roaster (8 Credits)"
+      },
+      "classical": {
+        "github": "Classical Code Review (8 Credits)",
+        "twitter": "Classical Commentary (8 Credits)",
+        "jike": "Classical Diary (8 Credits)"
+      },
+      "praise": {
+        "github": "Release Mode (8 Credits)",
+        "twitter": "Social Star (8 Credits)",
+        "jike": "Warm Memories (8 Credits)"
+      }
+    }
+  },
+  "error": {
+    "login_required": "Please authenticate first",
+    "insufficient_credits": "Insufficient credits. Debug Mode requires 5 credits, Release Mode requires 8 credits"
+  },
+  "auth": {
+    "login": {
+      "title": "System Login",
+      "heading": "Welcome Back",
+      "subheading": "Choose Authentication Method",
+      "button": "Verify Identity",
+      "githubButton": "GitHub OAuth Login",
+      "googleButton": "Google OAuth Login",
+      "switchButton": "New user? Create account"
+    },
+    "signup": {
+      "title": "Account Registration",
+      "heading": "Create Account",
+      "subheading": "Start Your Data Journey",
+      "button": "Submit Registration",
+      "switchButton": "Have an account? Sign in"
+    },
+    "form": {
+      "email": "Email Address",
+      "emailPlaceholder": "Enter email address",
+      "password": "Access Key",
+      "passwordPlaceholder": "Enter access key",
+      "loading": "Processing...",
+      "orContinueWith": "Or choose authentication method"
+    },
+    "error": {
+      "default": "Authentication failed, please retry"
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": {
+      "what": {
+        "q": "What's this tech magic?",
+        "a": "This is a deep learning-based annual data analysis engine. It performs deep mining of your digital footprint across platforms, reconstructing your year's story using AI algorithms. Supporting code commit analysis, social network analysis, and life trajectory tracking with multi-dimensional visualization."
+      },
+      "how": {
+        "q": "How to start data analysis?",
+        "a": "Just three steps: 1) Select target platform (GitHub/Twitter/Jike); 2) Enter user ID; 3) Choose output mode (Debug/Release). The system will automatically fetch public data via API, process it through the AI engine, and generate a personalized report."
+      },
+      "privacy": {
+        "q": "How is data security ensured?",
+        "a": "The system only analyzes public API data, with all sensitive information encrypted. Generated content uses temporary caching and is cleared after use. Fully compliant with data security standards, no privacy concerns."
+      },
+      "credits": {
+        "q": "Why computing credits?",
+        "a": "Generating personalized AI reports requires powerful GPU computing support. The credit system helps optimize resource allocation and ensure service quality. New users get free credits to start their data exploration journey!"
+      },
+      "coupon": {
+        "q": "How to use redemption codes?",
+        "a": "Simply add the query parameter ?code=YOUR_CODE to the URL, e.g., https://your-site.com/?code=WELCOME2024. Each user can use the welcome code once, instantly receiving 10 computing credits. Make sure you're authenticated first."
+      }
+    }
+  },
+  "footer": {
+    "links": "Related Links",
+    "contact": "Contact Us",
+    "copyright": "© 2025 AI Diss Annual Debug. All rights reserved."
+  },
+  "pricing": {
+    "title": "Price Configuration",
+    "subtitle": "New users get 2 free API calls upon registration",
+    "free": "Basic Version",
+    "credits": "{{count}} Computing Credits",
+    "generations": "Generate {{count}} Analysis Reports + 1 Avatar",
+    "buy": "Upgrade Config",
+    "try": "Start Trial",
+    "coming_soon": "Coming Soon"
+  },
+  "styles": {
+    "humor": "Fun Mode",
+    "sarcasm": "Debug Mode",
+    "praise": "Release Mode"
+  },
+  "coupon": {
+    "success": "Success! Computing Credits +{{credits}}",
+    "already_used": "Code already used",
+    "invalid": "Invalid code",
+    "error": "Redemption failed, check logs"
+  }
+} 
